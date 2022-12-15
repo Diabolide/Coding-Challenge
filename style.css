@@ -1,0 +1,70 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* online ho cercato come fare l'opacità al 50%
+dello sfondo senza ridurla anche ai child element */
+
+.container{
+  margin: 0 auto;
+  font-family: helvetica;
+  width: 1000px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 75px;
+  border-radius: 20px;
+}
+
+header{
+  text-align: center;
+}
+img{
+  width: 250px;
+  height: auto;
+}
+h1{
+  color: rgba(0,221,0,255);
+  margin: 10px;
+}
+
+/* nella nav non sono riuscito ad allineare
+lo sfondo dei pulsanti alle barre della batteria
+dei monopattini. */
+
+nav{background-color: rgba(0,221,0,255);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ho usato le linee orizontali per creare
+la batteria residua dei monopattini */
+
+hr{
+  margin-left: 0px
+}
+.uno{
+  color: orange;
+  border-top: 20px solid;
+  border-radius: 5px;
+  width: 400px;
+
+}
+.due{
+  color: rgba(0,221,0,255);
+  border-top: 20px solid;
+  border-radius: 5px;
+  width: 600px;
+}
+.tre{
+  color: red;
+  border-top: 15px solid;
+  border-radius: 5px;
+  width: 200px;
+}
+li{
+  font-size: 20px;
+}
